@@ -17,7 +17,7 @@
         }
         div{
             width: 600px;
-            height: 500px;
+            height: 550px;
             background-color: white;
         }
     </style>
@@ -28,63 +28,59 @@
                 <form></form>
                     <table>
                         <tr>
-                           <td align="end"><label>Name:</label></td>
-                            <td><input type=" text" required></td>
+                           <td align="end"><label>Name:  </label><br><br></td>
+                            <td><input type=" text" required><br><br></td>
                         </tr>    
                          <tr>
-                            <td align="end"><label>Email:</label></td>
-                            <td><input type="email" required></td>
+                            <td align="end"><label>Email:  </label><br><br></td>
+                            <td><input type="email" required><br><br></td>
                         </tr>
                         <tr>
-                            <td align="end"><label>Age:</label></td>
-                            <td><input type="number"></td>
+                            <td align="end"><label>Age:  </label><br><br></td>
+                            <td><input type="number" required><br><br></td>
                         </tr>
                         <tr>
                             <td></td>
-                            <td><input type="file"></td>
+                            <td><input type="file"><br><br></td>
                         </tr>    
                         <tr>
-                            <td align="end"><label>Which option best for describe your current role?</label></td>
+                            <td align="end"><label>Which option best for describe your current role?</label><br><br></td>
                             <td><input type="text" list="choices">
                                 <datalist id="choices">
                                 <option value="Student"><br>
-                                <option value=""><br>
-                                <option value="Student"><br>
+                                <option value="Working"><br><br>
                             </datalist></td>
                         </tr>        
                         <tr>
                             <td align="end"><label>How likely is that you would recommend this program to a friend</label></td>
                             <td><input type="radio" name="How likely is that you would recommend this program to a friend" value="Definitly">
-                            <label>Definitly</label>
+                            <label>Definitly</label><br>
                             <input type="radio" name="How likely is that you would recommend this program to a friend" value="Maybe">
-                            <label>Maybe</label>
+                            <label>Maybe</label><br>
                             <input type="radio" name="How likely is that you would recommend this program to a friend" value="Not sure">
                             <label>Not sure</label></td>
                         </tr>
                         <tr>       
-                            <td align="end"><label>What do you most here:</label></td>
+                            <td align="end"><label>What do you most here:</label><br></td>
                             <td><select>
-                        
                             <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value="" selected disabled>--select--</option>
+                            <option value="" selected disabled>Select an option</option><br><br>
                         </td>    
                         </select>
                         </tr>
                         <tr>
                             <td align="end"><label>Things that should be improved in the feature (Check all that apply):</label></td>
                             <td><input type="checkbox" value="Front-end projects ">
-                            <label>Front-end projects</label>
+                            <label>Front-end projects</label><br>
                             <input type="checkbox" value="Back-end projects ">
-                            <label>Back-end projects</label>
+                            <label>Back-end projects</label><br>
                             <input type="checkbox" value="Data Visualization ">
-                            <label>Data Visualization</label></td>
+                            <label>Data Visualization</label><br><br></td>
                         </tr>
 
                         <tr>
                             <td align="end"><label>Any Comments or Suggestions?</label></td>
-                            <td><textarea  cols="30" rows="10"></textarea></td>
+                            <td><textarea  cols="28" rows="3" placeholder="Enter your Comment here"></textarea></td>
                         </tr>    
                         
                             
@@ -92,7 +88,7 @@
     </center>
             
                     </table>
-                            <button>submit</button>
+                            <button style="background-color: rgb(0, 221, 255);">submit</button>
 
         </head>
     </body>
