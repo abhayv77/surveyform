@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SURVEY FORM</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <center>
+    <h1 style="color: white;">SURVEY FORM</h1>
+    </center>
+    <style>
+        body{
+            background-image: url(images.jpeg );
+            background-repeat: no-repeat ;
+            background-size: cover;
+        }
+        div{
+            width: 600px;
+            height: 500px;
+            background-color: white;
+        }
+    </style>
+    <body>
+    <center>
+        <div>
+            <h3>Let us know how we can improve</h3>
+                <form></form>
+                    <table>
+                        <tr>
+                           <td align="end"><label>Name:</label></td>
+                            <td><input type=" text" required></td>
+                        </tr>    
+                         <tr>
+                            <td align="end"><label>Email:</label></td>
+                            <td><input type="email" required></td>
+                        </tr>
+                        <tr>
+                            <td align="end"><label>Age:</label></td>
+                            <td><input type="number"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="file"></td>
+                        </tr>    
+                        <tr>
+                            <td align="end"><label>Which option best for describe your current role?</label></td>
+                            <td><input type="text" list="choices">
+                                <datalist id="choices">
+                                <option value="Student"><br>
+                                <option value=""><br>
+                                <option value="Student"><br>
+                            </datalist></td>
+                        </tr>        
+                        <tr>
+                            <td align="end"><label>How likely is that you would recommend this program to a friend</label></td>
+                            <td><input type="radio" name="How likely is that you would recommend this program to a friend" value="Definitly">
+                            <label>Definitly</label>
+                            <input type="radio" name="How likely is that you would recommend this program to a friend" value="Maybe">
+                            <label>Maybe</label>
+                            <input type="radio" name="How likely is that you would recommend this program to a friend" value="Not sure">
+                            <label>Not sure</label></td>
+                        </tr>
+                        <tr>       
+                            <td align="end"><label>What do you most here:</label></td>
+                            <td><select>
+                        
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value="" selected disabled>--select--</option>
+                        </td>    
+                        </select>
+                        </tr>
+                        <tr>
+                            <td align="end"><label>Things that should be improved in the feature (Check all that apply):</label></td>
+                            <td><input type="checkbox" value="Front-end projects ">
+                            <label>Front-end projects</label>
+                            <input type="checkbox" value="Back-end projects ">
+                            <label>Back-end projects</label>
+                            <input type="checkbox" value="Data Visualization ">
+                            <label>Data Visualization</label></td>
+                        </tr>
+
+                        <tr>
+                            <td align="end"><label>Any Comments or Suggestions?</label></td>
+                            <td><textarea  cols="30" rows="10"></textarea></td>
+                        </tr>    
+                        
+                            
+        </div>
+    </center>
+            
+                    </table>
+                            <button>submit</button>
+
+        </head>
+    </body>
+</html>
